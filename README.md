@@ -69,7 +69,7 @@ new MessagePopupParameters(
 - `PopupPresenter` применяет параметры и создаёт runtime-кнопки.
 - `PopupPresenterBase` проверяет типы view/parameters и даёт `ClosedAsync`.
 
-Ожидаемые компоненты prefab: `CanvasGroup`, `Image`, `TextMeshProUGUI`, `Button`, `PopupButtonView`, `VerticalLayoutGroup`/`HorizontalLayoutGroup`, `ContentSizeFitter`, `RectTransform` anchors. `ContentSizeFitter` нужен для автоматического расширения контейнеров под переменный контент, например под высоту body-текста. Template кнопки обычно хранится выключенным, presenter включает созданные копии.
+Ожидаемые компоненты prefab: `CanvasGroup`, `Image`, `TextMeshProUGUI`, `Button`, `PopupButtonView`, `VerticalLayoutGroup`/`HorizontalLayoutGroup`, `ContentSizeFitter`, `RectTransform` anchors. `ContentSizeFitter` нужен для автоматического расширения контейнеров под переменный контент, например под высоту body-текста.
 
 ## 4. UI Performance Refactoring
 
